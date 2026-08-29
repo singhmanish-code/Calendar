@@ -23,7 +23,7 @@ The program takes two primary inputs:
 
 ## OUTPUT EXAMPLE
 
-
+'''
 Enter number of days in the month: 30 
 Enter starting day of the month (1 = Sun, 7 = Sat): 5 /assume first day of the month is thursday/
 
@@ -33,5 +33,5 @@ Enter starting day of the month (1 = Sun, 7 = Sat): 5 /assume first day of the m
  15 16 17 18 19 20 21
  22 23 24 25 26 27 28
  29 30
- 
+'''
 thanks for reading :)
