@@ -20,16 +20,16 @@ The program takes two primary inputs:
 - 5: Thursday
 - 6: Friday
 - 7: Saturday
-- 
+
 ## OUTPUT EXAMPLE
 
-'''text
+
 Enter number of days in the month: 30 
 Enter starting day of the month (1 = Sun, 7 = Sat): 5 /assume first day of the month is thursday/
 
  Su Mo Tu We Th Fr Sa
               5  6  7
-  8  9 10 11 12 13 14
+  8  9 10 11 12 13 14 
  15 16 17 18 19 20 21
  22 23 24 25 26 27 28
  29 30
