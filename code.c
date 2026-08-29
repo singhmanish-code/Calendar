@@ -10,12 +10,14 @@ int main(void)
     scanf("%d", &s_day);
     
     printf("\n Su Mo Tu We Th Fr Sa\n");
-    for(i = 1; i <= days; i++) {
-        if (i < s_day)
+    for(i = 1; i < s_day; i++) {
             printf("   ");
-        else
-            printf("%3d", i);
-        if (i % 7 == 0)
+    }
+
+    for (i = 1; i <= days; i++) {
+        printf("%3d", i);
+
+        if (((i+s_day) - 1) % 7 == 0)
             printf("\n");
     }
 
