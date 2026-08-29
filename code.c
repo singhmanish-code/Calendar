@@ -11,7 +11,7 @@ int main(void)
     
     printf("\n Su Mo Tu We Th Fr Sa\n");
     for(i = 1; i < s_day; i++) {
-            printf("   ");
+        printf("   ");
     }
 
     for (i = 1; i <= days; i++) {
