@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    int days, s_day, s, i;
+    int days, s_day, i;
 
     printf("Enter number of days in the month: ");
     scanf("%d", &days);
